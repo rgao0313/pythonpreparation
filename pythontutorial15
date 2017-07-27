@@ -1,0 +1,6 @@
+text='hahaha 77 is perfect'
+
+print(text)
+my_file=open('my file.txt','a')
+my_file.write(text)
+my_file.close()

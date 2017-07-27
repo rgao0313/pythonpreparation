@@ -1,0 +1,5 @@
+from time import*
+import a
+print(localtime())
+print(time())
+print(module.printdata('I am python1'))

@@ -1,0 +1,4 @@
+def fun(a,b):
+  c=a*b
+  print('the c is:',c)
+fun(3,4)

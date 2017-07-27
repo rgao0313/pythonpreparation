@@ -1,0 +1,27 @@
+class Calculator:
+  name='Good calculator'
+  price=18
+  def __init__(self,name='bad',price=0,height=0,width=0,weight=0):
+    self.name=name
+    self.price=price
+    self.h=height
+    self.wi=width
+    self.we=weight
+  def add(self,x,y):
+    print(self.name)
+    result=x+y
+    print(result)
+  def minus(self,x,y):
+    result=x-y
+    print(result)
+  def times(self,x,y):
+    print(x*y)
+  def divide(self,x,y):
+    print(x/y)
+calcul=Calculator()
+calcul.name
+calcul.price
+calcul.add(10,11)
+calcul.divide(13,2)
+c=Calculator('77 is good',12,30,15,19)
+print(c.price)
