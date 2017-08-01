@@ -1,3 +1,4 @@
+#how to use a method in python
 def fun(a,b):
   c=a*b
   print('the c is:',c)
